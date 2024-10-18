@@ -1,3 +1,5 @@
+# Refer to "Section 1: Introduction to Terraform" > "Terraform Variables"
+
 # Note: This value is hard coded for the purpose of the workshop. 
 # In a real-world scenario, you would want to use a data source to look up the VPC ID.
 variable "tf_workshop_ex1_vpc_sg_id" {
@@ -15,5 +17,5 @@ variable "tf_workshop_ex1_subnet_id" {
 variable "student_id" {
   type        = string
   description = "Student ID"
-  default     = "student-420"
+  default     = "student-27"
 }
